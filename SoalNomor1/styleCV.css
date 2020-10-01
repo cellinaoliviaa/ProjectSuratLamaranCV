@@ -1,0 +1,138 @@
+html
+{
+    background-color: #ebeced;
+    padding: 5px;
+}
+
+body
+{
+    background-color: #fff;
+    margin: 10px auto;
+    line-height: 25px;
+    max-width: 60em;
+}
+
+.linkpages
+{
+    background-color: #B78C8E;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;   
+}
+
+.lamaran a
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: rgb(13, 8, 78);
+}
+
+.lamaran a :hover
+{
+    color: gray;
+}
+
+table
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(75, 23, 75);
+    font-size: 16px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.header
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #B78C8E;
+    height: 220px;
+}
+
+.photo 
+{
+    margin: 20px;
+}
+
+
+.headertitle
+{
+    align-items: center;
+}
+
+.headertitle img
+{
+    width: 115px;
+    height: 115px;
+    float: left;
+    border-radius: 100px;
+    margin-left: 413px;
+    margin-top: 15px;
+}
+
+
+.name 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(46, 15, 46);
+    text-align: center;
+    margin-left: 340px;
+    margin-top: 140px;
+}
+
+.cv
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(46, 15, 46);
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 15px;
+}
+
+.contentbody
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap
+{
+    margin: 20px;
+}
+
+.section-left
+{
+    flex: 1;
+    background-color: #d9d9d9;
+}
+
+.section-left .lists
+{
+    margin-left: 5px;
+}
+
+.section-right
+{
+    flex: 2;
+    background-color: #EFDBD0;
+}
+
+.section-right .wrap
+{
+    margin-left: 20px;
+}
+
+.section-right .lists
+{
+    margin-right: -20px;
+}
